@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Purchase Product by payment deferral Test" thread-count="1" parallel="tests">
+    <test name="Purchase product by payment deferral test">
+        <classes>
+            <class name="no.komplett.tests.suits.shopping.PurchaseProductByPaymentDeferralTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="no.komplett.tests.utils.common.TestngEventsListiner"/>
+    </listeners>
+</suite>

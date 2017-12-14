@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Edit account data on DEV" thread-count="1" parallel="methods">
+    <test name="Edit account data on DEV business">
+        <classes>
+            <class name="no.komplett.tests.suits.account.EditAccountDataBusiness"/>
+        </classes>
+    </test>
+    <test name="Edit account data on DEV private">
+        <classes>
+            <class name="no.komplett.tests.suits.account.EditAccountDataPrivate"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="no.komplett.tests.utils.common.TestngEventsListiner"/>
+    </listeners>
+</suite>
